@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--hotel isntead of hotels-->
+<Hotel xmlns="http://venus.sod.asu.edu/WSRepository/xml/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml/ https://ezarraga.github.io/cse445_a4/Hotels.xsd">
+
+	<Hotel Rating="4.2">
+		<Name>Westin</Name>
+		<Phone>480-968-8885</Phone>
+		<Phone>800-937-8461</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>11</Number>
+			<Street>E. 7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.5">
+		<Name>Excalibur</Name>
+		<Phone>877-750-5464</Phone>
+		<!--required attribute missing-->
+		<Address>
+			<Number>3850</Number>
+			<Street>Las Vegas Blvd</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89109</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>The Wigwam</Name>
+		<!--phone is missing-->
+		<Address NearestAirport="Sky Harbor">
+			<Number>300</Number>
+			<Street>E. Wigwam Blvd</Street>
+			<City>Litchfield Park</City>
+			<State>AZ</State>
+			<Zip>85340</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.3">
+		<Name>Hard Rock</Name>
+		<Phone>407-503-2000</Phone>
+		<Address NearestAirport="Orlando Executive">
+			<Number>5800</Number>
+			<Street>Universal Blvd</Street>
+			<City>Orlando</City>
+			<State>FL</State>
+			<Zip>32819</Zip>
+			<!--missing closing tag-->
+	</Hotel>
+
+	<Hotel>
+		<!--two names-->
+		<Name>Sheraton Tribeca</Name>
+		<Name>Sheraton Tribeca Hotel</Name>
+		<Phone>212-966-3400</Phone>
+		<Phone>888-236-2427</Phone>
+		<Address NearestAirport="John F. Kennedy">
+			<Number>370</Number>
+			<Street>Canal St</Street>
+			<City>New York</City>
+			<State>NY</State>
+			<Zip>10013</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="3.9">
+		<Name>Miyako</Name>
+		<Phone>213-398-0274</Phone>
+		<Address NearestAirport="Los Angeles International">
+			<Number>328</Number>
+			<Street>E. 1st St</Street>
+			<City>Los Angeles</City>
+			<State>CA</State>
+			<Zip>90012</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>Mayflower Park</Name>
+		<Phone>206-623-8700</Phone>
+		<Address NearestAirport="Seattle-Tacoma International">
+			<Number>405</Number>
+			<Street>Olive Way</Street>
+			<City>Seattle</City>
+			<State>WA</State>
+			<Zip>98101</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.4">
+		<Name>Radisson</Name>
+		<Phone>971-361-3971</Phone>
+		<Address NearestAirport="Portland International">
+			<Number>6233</Number>
+			<Street>N E 78th Ct</Street>
+			<City>Portland</City>
+			<State>OR</State>
+			<Zip>97218</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>Omni</Name>
+		<Phone>214-744-6664</Phone>
+		<Phone>888-444-6664</Phone>
+		<Address NearestAirport="Draughon-Miller">
+			<Number>555</Number>
+			<Street>S Lamar St</Street>
+			<City>Dallas</City>
+			<State>TX</State>
+			<Zip>75202</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.1">
+		<Name>Waikoloa</Name>
+		<Phone>808-886-6789</Phone>
+		<Address NearestAirport="Waimea-Kohala">
+			<Number>69-275</Number>
+			<Street>Waikoloa Beach Dr</Street>
+			<City>Waikoloa</City>
+			<State>HI</State>
+			<Zip>96738</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>Turtle Creek</Name>
+		<Phone>231-938-0100</Phone>
+		<Address NearestAirport="Traverse City Cherry Capital">
+			<Number>7741 M-72</Number>
+			<Street>Whiterwater</Street>
+			<City>Williamsburg</City>
+			<State>MI</State>
+			<Zip>49690</Zip>
+		</Address>
+	</Hotel>
+
+</Hotel>
