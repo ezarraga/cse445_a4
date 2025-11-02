@@ -49,9 +49,9 @@
 			<Number>5800</Number>
 			<Street>Universal Blvd</Street>
 			<City>Orlando</City>
-			<State>FL</State>
+			<State>FL <!--missing closing tag-->
 			<Zip>32819</Zip>
-			<!--missing closing tag-->
+		</Address>
 	</Hotel>
 
 	<Hotel>
